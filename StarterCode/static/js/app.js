@@ -19,8 +19,6 @@ renderProccess();
 
 function renderProccess(){ 
 
-    // do I need a delete existing graph line here????
-
     d3.html('');
 
     d3.json("samples.json").then((data) => {
@@ -82,7 +80,7 @@ function renderProccess(){
         Plotly.newPlot('bar', data, layout);
 
 
-        // bubble chart generation
+        // bubble chart
 
         // grabs data
         var xticksbub = otu_ids.slice(0, 10);
