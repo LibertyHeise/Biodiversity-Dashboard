@@ -107,7 +107,7 @@ function renderProccess(){
             marker: {
               color: xticksbub,  
               size: yticksbub,
-              colorscale: "Earth"
+              colorscale: "darkmint"
             },
             text: labelsbub
           };
@@ -166,15 +166,15 @@ function renderProccess(){
               gauge: {
                 axis: { range: [null, 9], ticks: 9},
                 steps: [
-                  { range: [0, 1], color: "lightgray" },
-                  { range: [1, 2], color: "gray" },
-                  { range: [2, 3], color: "lightgray" },
-                  { range: [3, 4], color: "gray" },
-                  { range: [4, 5], color: "lightgray" },
-                  { range: [5, 6], color: "gray" },
-                  { range: [6, 7], color: "lightgray" },
-                  { range: [7, 8], color: "gray" },
-                  { range: [8, 9], color: "lightgray" }
+                  { range: [0, 1], color: "lightpink" },
+                  { range: [1, 2], color: "pink" },
+                  { range: [2, 3], color: "lightpink" },
+                  { range: [3, 4], color: "pink" },
+                  { range: [4, 5], color: "lightpink" },
+                  { range: [5, 6], color: "pink" },
+                  { range: [6, 7], color: "lightpink" },
+                  { range: [7, 8], color: "pink" },
+                  { range: [8, 9], color: "lightpink" }
                 ],
                 threshold: {
                   line: { color: "red", width: 3 },
